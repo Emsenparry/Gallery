@@ -3,6 +3,7 @@ let array_images = [ //Array med objekter indeni.
     {filename: "bjerg_trekking.jpg", title: "Bjerg trækning"},
     {filename: "istralandia.jpg", title: "Istralandia"},
     {filename: "ishav_lgstr.jpg", title: "Frossen havvand ved Løgstør"},
+    {filename: "snefald_rold_skov.jpg", title: "Snefald i en skov"},
     {filename: "hav_agaeteÔü®.jpg", title: "Stort hav"}
 ];
 
