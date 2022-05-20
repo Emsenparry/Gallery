@@ -10,7 +10,7 @@ let array_images = [ //Array med objekter indeni.
 const MODAL = document.getElementById('modal')
 const CLOSE = document.querySelector('.close'); 
 CLOSE.onclick = function() {closeModal()}
-window.onclick = function(e) {
+window.onclick = function(e) { //e = event.
     if(e.target === MODAL){
         closeModal()   
     }
@@ -27,6 +27,9 @@ for(let image of array_images) {
         showModal(image)
     }
 }
+
+
+// SHOW AND CLOSE MODAL
 
 function showModal(objImage) {
     MODAL.children[0].style.backgroundImage = `url('../assets/images/${objImage.filename}')` //Children er en liste over de childes der lægger i modal.
